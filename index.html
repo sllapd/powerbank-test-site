@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power Bank 50 000 mAh Quick Charge 22.5W — Официальная страница</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">POWER<span>50K</span></a>
+      <nav class="nav" id="navMenu">
+        <a href="#features" class="nav-link">Преимущества</a>
+        <a href="#calculator" class="nav-link">На сколько хватит</a>
+        <a href="#specs" class="nav-link">Характеристики</a>
+        <a href="#faq" class="nav-link">Вопросы</a>
+      </nav>
+      <a href="#order" class="btn btn-sm">Заказать</a>
+      <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Главный экран (без 3D-модели, со статичной карточкой товара) -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-row">
+            <span class="badge badge-accent">Хит продаж • 22.5W</span>
+            <span class="badge badge-stock">В наличии</span>
+          </div>
+          <h1 class="hero-title">
+            Power Bank <span>50 000 mAh</span> Quick Charge 22.5W + LED лампа
+          </h1>
+          <p class="hero-subtitle">
+            Мощный автономный источник питания с быстрой зарядкой PD 20W / QC 22.5W,
+            точным цифровым дисплеем и ярким встроенным светильником. Надёжный запас
+            энергии для смартфонов, роутеров, планшетов и гаджетов.
+          </p>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <strong>50 000 mAh</strong>
+              <span>До 10–12 зарядок телефона</span>
+            </div>
+            <div class="highlight-item">
+              <strong>22.5W + PD 20W</strong>
+              <span>50% заряда за 30 минут</span>
+            </div>
+            <div class="highlight-item">
+              <strong>LED-светильник</strong>
+              <span>Яркая встроенная лампа</span>
+            </div>
+          </div>
+
+          <div class="hero-price-box">
+            <div class="price-wrap">
+              <span class="price-old">1 499 грн</span>
+              <span class="price-current" id="basePrice" data-price="999">999 грн</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#order" class="btn btn-primary btn-lg">Заказать со скидкой</a>
+              <a href="#specs" class="btn btn-outline btn-lg">Характеристики</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Блок изображения товара (вместо 3D-модели) -->
+        <div class="hero-Showcase">
+          <div class="product-visual-card" id="productCard">
+            <div class="visual-glow"></div>
+            <div class="visual-top-tags">
+              <span class="tag-chip">2× USB 22.5W</span>
+              <span class="tag-chip">Type-C PD</span>
+              <span class="tag-chip">LED 100%</span>
+            </div>
+            <div class="image-container">
+              <!-- Положите фото павербанка в папку с сайтом под именем powerbank.png или оставьте имя файла с телефона -->
+              <img
+                src="powerbank.png"
+                onerror="this.onerror=null; this.src='3C7315EE-F13A-42B3-9F77-76981CAD59A5.png';"
+                alt="Power Bank 50000 mAh Quick Charge 22.5W"
+                class="product-main-img"
+                id="productImg"
+              />
+            </div>
+            <div class="visual-footer">
+              <div class="lamp-demo-toggle">
+                <span>Проверка подсветки на макете:</span>
+                <button type="button" class="btn-lamp" id="toggleLampBtn">Включить LED-лампу</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Почему выбирают эту модель</span>
+          <h2 class="section-title">Создан для полной автономности</h2>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Быстрая зарядка 22.5W и PD 20W</h3>
+            <p>Поддержка протоколов Quick Charge 3.0 и Power Delivery позволяет заряжать современные смартфоны в 2.5 раза быстрее обычных павербанков.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🔋</div>
+            <h3>Зарядка 3 устройств сразу</h3>
+            <p>Два мощных порта USB-A (по 22.5W) и универсальный разъём Type-C работают одновременно без просадки напряжения.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">💡</div>
+            <h3>Широкая LED-лампа</h3>
+            <p>Матовый рассеиватель на корпусе заменяет настольную лампу или кемпинговый фонарь во время отключений электричества.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">📟</div>
+            <h3>Точный цифровой экран</h3>
+            <p>Дисплей показывает остаток заряда с точностью до 1% и сигнализирует об активации режима быстрой зарядки PD/QC.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Интерактивный калькулятор автономности -->
+    <section class="section section-alt" id="calculator">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Реальная ёмкость 50 000 mAh</span>
+          <h2 class="section-title">На сколько хватит полного заряда?</h2>
+        </div>
+
+        <div class="calc-box">
+          <div class="calc-tabs" id="calcTabs">
+            <button class="calc-tab active" data-device="phone">Смартфон</button>
+            <button class="calc-tab" data-device="router">Wi-Fi Роутер + ONU</button>
+            <button class="calc-tab" data-device="tablet">Планшет</button>
+            <button class="calc-tab" data-device="lamp">Встроенная LED-лампа</button>
+          </div>
+          <div class="calc-result">
+            <div class="calc-number" id="calcValue">9–11 раз</div>
+            <p class="calc-desc" id="calcDesc">
+              Полных циклов зарядки стандартного смартфона (аккумулятор 4000–5000 mAh).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Характеристики -->
+    <section class="section" id="specs">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Детали устройства</span>
+          <h2 class="section-title">Технические характеристики</h2>
+        </div>
+
+        <div class="specs-wrapper">
+          <ul class="specs-list">
+            <li>
+              <span class="spec-name">Ёмкость аккумулятора</span>
+              <span class="spec-val">50 000 mAh (Li-Pol)</span>
+            </li>
+            <li>
+              <span class="spec-name">Максимальная выходная мощность</span>
+              <span class="spec-val">22.5W (Quick Charge) / 20W (PD)</span>
+            </li>
+            <li>
+              <span class="spec-name">Выходные разъёмы</span>
+              <span class="spec-val">2 × USB-A (22.5W), 1 × Type-C (PD)</span>
+            </li>
+            <li>
+              <span class="spec-name">Входные разъёмы (зарядка павербанка)</span>
+              <span class="spec-val">Type-C (PD 18W), Micro-USB</span>
+            </li>
+            <li>
+              <span class="spec-name">Индикация уровня заряда</span>
+              <span class="spec-val">Цифровой LED-дисплей (0–100%)</span>
+            </li>
+            <li>
+              <span class="spec-name">Освещение</span>
+              <span class="spec-val">Встроенная светодиодная панель на корпусе</span>
+            </li>
+            <li>
+              <span class="spec-name">Материал корпуса</span>
+              <span class="spec-val">Ударопрочный огнестойкий ABS + PC пластик</span>
+            </li>
+            <li>
+              <span class="spec-name">Дополнительно</span>
+              <span class="spec-val">Ремешок для переноски, защита от КЗ и перегрева</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ответы на вопросы</span>
+          <h2 class="section-title">Часто спрашивают</h2>
+        </div>
+
+        <div class="faq-list" id="faqList">
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Подойдёт ли этот павербанк для питания Wi-Fi роутера?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Да, при подключении через кабель-преобразователь USB → DC (9V или 12V) павербанк без проблем питает роутер и оптоволоконный терминал ONU до 35–45 часов подряд.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Как включается встроенный фонарь?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Светильник включается и выключается долгим нажатием (или двойным кликом, в зависимости от ревизии) боковой кнопки питания на корпусе.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Чем лучше заряжать сам павербанк?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Для максимально быстрой зарядки самого аккумулятора рекомендуется использовать сетевой блок мощностью от 18W–20W через разъём Type-C.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма заказа -->
+    <section class="section" id="order">
+      <div class="container">
+        <div class="order-card">
+          <div class="order-info">
+            <span class="section-tag">Быстрое оформление</span>
+            <h2>Закажите Power Bank 50 000 mAh прямо сейчас</h2>
+            <p>Отправка в день заказа. Оплата при получении (наложенный платёж) или по реквизитам.</p>
+            <ul class="order-perks">
+              <li>✓ Проверка каждого устройства перед отправкой</li>
+              <li>✓ Доставка Новой Почтой 1–2 дня</li>
+              <li>✓ Выгодная цена при заказе от 2 штук</li>
+            </ul>
+          </div>
+
+          <form class="order-form" id="orderForm">
+            <div class="form-group">
+              <label for="clientName">Ваше имя</label>
+              <input type="text" id="clientName" name="name" placeholder="Например, Александр" required />
+            </div>
+
+            <div class="form-group">
+              <label for="clientPhone">Номер телефона</label>
+              <input type="tel" id="clientPhone" name="phone" placeholder="+38 (0__) ___-__-__" required />
+            </div>
+
+            <div class="form-group">
+              <label for="clientCity">Город и отделение Новой Почты</label>
+              <input type="text" id="clientCity" name="city" placeholder="г. Днепр, отделение №15" required />
+            </div>
+
+            <div class="form-group">
+              <label for="quantitySelect">Количество</label>
+              <select id="quantitySelect" name="quantity">
+                <option value="1">1 шт. — 999 грн</option>
+                <option value="2">2 шт. — 1 890 грн (экономия 108 грн)</option>
+                <option value="3">3 шт. — 2 750 грн (экономия 247 грн)</option>
+                <option value="opt">Опт (от 5 шт.) — уточнить цену</option>
+              </select>
+            </div>
+
+            <div class="order-total-row">
+              <span>К оплате:</span>
+              <strong id="totalPriceDisplay">999 грн</strong>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Подтвердить заказ</button>
+            <p class="form-status" id="formStatus" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 POWER50K. Все права защищены.</p>
+      <p>Power Bank 50000 mAh Quick Charge 22.5W</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
